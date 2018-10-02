@@ -1,3 +1,5 @@
+
+"""Encodeerfunctie mbt unicode files"""
 def encode(text):
     out = ""
     i = 0
