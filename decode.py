@@ -27,7 +27,7 @@ def decode(code):
             prevletter = char
             i+=1
             continue
-        if not escape and char.isdigit():
+        if char.isdigit():
             digits += char
         elif char == "\\":
             isescape = True
