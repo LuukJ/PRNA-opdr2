@@ -21,4 +21,7 @@ def encode(text):
         out += char
         if n > 1:
             out += str(n)
+    if getal:
+        bins[int(getal)//1000] += 1
+
     return out, bins
