@@ -16,7 +16,7 @@ def encode(text):
         elif getal:
             bins[int(getal)//1000] += 1
             getal = ""
-        if char in "\\01234567890":
+        if char in "\\01234567890:":
             out += "\\"
         out += char
         if n > 1:
