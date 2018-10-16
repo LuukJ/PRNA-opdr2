@@ -1,6 +1,6 @@
 x = [34, 54, 11, 22, 42, 20, 79, 55, 65, 57]
 
-
+### schaalt de array naar een getal tussen 0 en 10
 def scalar(array):
     p = max(array)/10
     x_augmented = []
@@ -9,6 +9,7 @@ def scalar(array):
         x_augmented.append(scaledelement)
     return(x_augmented)
 
+## definieerd welke varabelen in de grafiek een sterretje moeten bevatten
 def graphdefine(t):
     col= ["A","B","C","D","E","F","G", "H", "I", "J"]
     for value in t:
@@ -19,7 +20,7 @@ def graphdefine(t):
             exec("global "+ p +"; " + p + " = '*'")
             counter += 1
 
-
+## definieerd alle variablen van de grafiek naar een spatie zodat er geen errors voorkomen
 def set_init_var():
     col = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
     for element in col:
